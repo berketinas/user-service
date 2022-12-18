@@ -1,8 +1,7 @@
 com\berketinas\sm\berkemedia\utils\StatementPool.class
 com\berketinas\sm\berkemedia\utils\ConnectionPool.class
-com\berketinas\sm\berkemedia\HelloApp.class
 com\berketinas\sm\berkemedia\dao\DAO.class
+com\berketinas\sm\berkemedia\web\UserServlet.class
 com\berketinas\sm\berkemedia\dao\UserDAOImpl.class
 com\berketinas\sm\berkemedia\model\User.class
-com\berketinas\sm\berkemedia\HelloResource.class
 com\berketinas\sm\berkemedia\utils\PropertiesLoader.class
