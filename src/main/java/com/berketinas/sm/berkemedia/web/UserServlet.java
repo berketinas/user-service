@@ -47,6 +47,13 @@ public class UserServlet extends HttpServlet {
             } catch (SQLException | IOException e) {
                 e.printStackTrace();
             }
+        } else {
+            PrintWriter out = response.getWriter();
+            response.setContentType("text/html");
+            response.setCharacterEncoding("UTF-8");
+
+            out.print("hello");
+            out.flush();
         }
     }
 
@@ -69,6 +76,7 @@ public class UserServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
+
         out.print(usersJsonString);
         out.flush();
     }
