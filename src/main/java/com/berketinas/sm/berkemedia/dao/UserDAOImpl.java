@@ -37,7 +37,6 @@ public class UserDAOImpl implements DAO<User> {
             preparedStatement.setObject(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
 
-
             while (resultSet.next()) {
                 user = new User(
                         resultSet.getObject("id", java.util.UUID.class),
